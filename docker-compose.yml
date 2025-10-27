@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  pulse:
+    image: ${PULSE_IMAGE:-rcourtman/pulse:latest}
+    container_name: pulse
+    restart: unless-stopped
+    ports:
+      - "${PULSE_PORT:-7655}:7655"
+    volumes:
+      - pulse-data:/data
+      # Secure temperature monitoring via host-side proxy
+      - /mnt/pulse-proxy:/mnt/pulse-proxy:ro
+    environment:
+      - TZ=${TZ:-UTC}
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:7655/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+volumes:
+  pulse-data:
+    driver: local
