@@ -25,7 +25,7 @@ type InstallShAdapter struct {
 func NewInstallShAdapter(history *UpdateHistory) *InstallShAdapter {
 	return &InstallShAdapter{
 		history:        history,
-		installScriptURL: "https://raw.githubusercontent.com/rcourtman/Pulse/main/install.sh",
+		installScriptURL: "https://raw.githubusercontent.com/RouXx67/PulseUP/main/install.sh",
 		logDir:         "/var/log/pulse",
 	}
 }
@@ -552,9 +552,9 @@ func (u *DockerUpdater) PrepareUpdate(ctx context.Context, request UpdateRequest
 	return &UpdatePlan{
 		CanAutoUpdate: false,
 		Instructions: []string{
-			fmt.Sprintf("docker pull rcourtman/pulse:%s", strings.TrimPrefix(request.Version, "v")),
+			fmt.Sprintf("docker pull RouXx67/pulseup:%s", strings.TrimPrefix(request.Version, "v")),
 			"docker stop pulse",
-			fmt.Sprintf("docker run -d --name pulse rcourtman/pulse:%s", strings.TrimPrefix(request.Version, "v")),
+			fmt.Sprintf("docker run -d --name pulse RouXx67/pulseup:%s", strings.TrimPrefix(request.Version, "v")),
 		},
 		RequiresRoot:    false,
 		RollbackSupport: true,

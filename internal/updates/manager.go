@@ -489,7 +489,7 @@ func (m *Manager) getLatestReleaseForChannel(ctx context.Context, channel string
 	if baseURL == "" {
 		baseURL = "https://api.github.com"
 	}
-	url := baseURL + "/repos/rcourtman/Pulse/releases"
+	url := baseURL + "/repos/RouXx67/PulseUP/releases"
 
 	req, err := http.NewRequestWithContext(ctx, "GET", url, nil)
 	if err != nil {
