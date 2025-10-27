@@ -54,14 +54,14 @@ for build_name in "${!builds[@]}"; do
 
     # Build backend binary with version info
     env $build_env go build \
-        -ldflags="-s -w -X main.Version=v${VERSION} -X main.BuildTime=${build_time} -X main.GitCommit=${git_commit} -X github.com/RouXx67/PulseUP-go-rewrite/internal/dockeragent.Version=v${VERSION}" \
+        -ldflags="-s -w -X main.Version=v${VERSION} -X main.BuildTime=${build_time} -X main.GitCommit=${git_commit} -X github.com/RouXx67/PulseUp/internal/dockeragent.Version=v${VERSION}" \
         -trimpath \
         -o "$BUILD_DIR/pulse-$build_name" \
         ./cmd/pulse
 
     # Build docker agent binary
     env $build_env go build \
-        -ldflags="-s -w -X github.com/RouXx67/PulseUP-go-rewrite/internal/dockeragent.Version=v${VERSION}" \
+        -ldflags="-s -w -X github.com/RouXx67/PulseUp/internal/dockeragent.Version=v${VERSION}" \
         -trimpath \
         -o "$BUILD_DIR/pulse-docker-agent-$build_name" \
         ./cmd/pulse-docker-agent

@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/RouXx67/PulseUP/internal/logging"
+	"github.com/RouXx67/PulseUp/internal/logging"
 	"github.com/rs/zerolog/log"
 )
 

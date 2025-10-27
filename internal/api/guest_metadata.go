@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/RouXx67/PulseUP/internal/config"
+	"github.com/RouXx67/PulseUp/internal/config"
 	"github.com/rs/zerolog/log"
 )
 

@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/RouXx67/PulseUP/internal/models"
+	"github.com/RouXx67/PulseUp/internal/models"
 )
 
 // GenerateAlertHistory generates historical alert data for testing

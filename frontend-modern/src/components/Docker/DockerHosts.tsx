@@ -1034,7 +1034,7 @@ export const DockerHosts: Component<DockerHostsProps> = (props) => {
                   Copy install command
                 </CopyButton>
                 <a
-                  href="https://github.com/RouXx67/PulseUP/blob/main/docs/DOCKER_MONITORING.md"
+                  href="https://github.com/RouXx67/PulseUp/blob/main/docs/DOCKER_MONITORING.md"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="text-sm text-blue-600 dark:text-blue-400 hover:underline"

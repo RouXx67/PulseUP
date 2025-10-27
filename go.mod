@@ -1,4 +1,4 @@
-module github.com/RouXx67/PulseUP
+module github.com/RouXx67/PulseUp
 
 go 1.24.0
 

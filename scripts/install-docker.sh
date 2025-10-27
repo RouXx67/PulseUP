@@ -40,7 +40,7 @@ set_github_fallback_url() {
     if [[ "$ref" == "main" ]]; then
         base="https://raw.githubusercontent.com/RouXx67/PulseUP/${ref}/release/pulse-sensor-proxy-${PROXY_ARCH_LABEL}"
     else
-        base="https://github.com/RouXx67/PulseUP/releases/download/${ref}/pulse-sensor-proxy-${PROXY_ARCH_LABEL}"
+        base="https://github.com/RouXx67/PulseUp/releases/download/${ref}/pulse-sensor-proxy-${PROXY_ARCH_LABEL}"
     fi
 
     export PULSE_SENSOR_PROXY_FALLBACK_URL="$base"
@@ -312,7 +312,7 @@ download_installer_from_github() {
     fi
 
     if [[ "$tag" != "main" ]]; then
-        local asset_url="https://github.com/RouXx67/PulseUP/releases/download/${tag}/install-sensor-proxy.sh"
+        local asset_url="https://github.com/RouXx67/PulseUp/releases/download/${tag}/install-sensor-proxy.sh"
         attempted=true
         if curl --fail --silent --location --connect-timeout 5 --max-time 30 "$asset_url" -o "$destination" 2>/dev/null; then
             chmod +x "$destination"

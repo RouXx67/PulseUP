@@ -23,8 +23,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/joho/godotenv"
 	"github.com/pkg/errors"
-	"github.com/RouXx67/PulseUP/internal/auth"
-	"github.com/RouXx67/PulseUP/internal/logging"
+	"github.com/RouXx67/PulseUp/internal/auth"
+	"github.com/RouXx67/PulseUp/internal/logging"
 	"github.com/rs/zerolog/log"
 )
 

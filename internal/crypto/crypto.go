@@ -10,7 +10,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/RouXx67/PulseUP/internal/utils"
+	"github.com/RouXx67/PulseUp/internal/utils"
 	"github.com/rs/zerolog/log"
 )
 

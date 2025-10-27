@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/RouXx67/PulseUP/internal/config"
-	"github.com/RouXx67/PulseUP/internal/websocket"
-	pkgdiscovery "github.com/RouXx67/PulseUP/pkg/discovery"
+	"github.com/RouXx67/PulseUp/internal/config"
+	"github.com/RouXx67/PulseUp/internal/websocket"
+	pkgdiscovery "github.com/RouXx67/PulseUp/pkg/discovery"
 	"github.com/rs/zerolog/log"
 )
 

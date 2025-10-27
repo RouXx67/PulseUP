@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/RouXx67/PulseUP/internal/models"
+	"github.com/RouXx67/PulseUp/internal/models"
 	"github.com/rs/zerolog/log"
 )
 

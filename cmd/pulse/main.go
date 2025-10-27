@@ -12,12 +12,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/RouXx67/PulseUP/internal/api"
-	"github.com/RouXx67/PulseUP/internal/config"
-	"github.com/RouXx67/PulseUP/internal/logging"
-	_ "github.com/RouXx67/PulseUP/internal/mock" // Import for init() to run
-	"github.com/RouXx67/PulseUP/internal/monitoring"
-	"github.com/RouXx67/PulseUP/internal/websocket"
+	"github.com/RouXx67/PulseUp/internal/api"
+	"github.com/RouXx67/PulseUp/internal/config"
+	"github.com/RouXx67/PulseUp/internal/logging"
+	_ "github.com/RouXx67/PulseUp/internal/mock" // Import for init() to run
+	"github.com/RouXx67/PulseUp/internal/monitoring"
+	"github.com/RouXx67/PulseUp/internal/websocket"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/cobra"
 )

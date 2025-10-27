@@ -9,9 +9,9 @@ keywords:
   - monitoring
   - proxmox
   - observability
-home: https://github.com/RouXx67/PulseUP
+home: https://github.com/RouXx67/PulseUp
 sources:
-- https://github.com/RouXx67/PulseUP
+- https://github.com/RouXx67/PulseUp
 maintainers:
   - name: Pulse Maintainers
     email: pulse@rcourtman.dev

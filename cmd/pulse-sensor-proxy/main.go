@@ -18,7 +18,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/RouXx67/PulseUP/internal/ssh/knownhosts"
+	"github.com/RouXx67/PulseUp/internal/ssh/knownhosts"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/cobra"

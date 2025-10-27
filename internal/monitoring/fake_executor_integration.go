@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	internalerrors "github.com/RouXx67/PulseUP/internal/errors"
+	internalerrors "github.com/RouXx67/PulseUp/internal/errors"
 )
 
 type fakeExecutor struct {

@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/RouXx67/PulseUP/internal/monitoring"
-	"github.com/RouXx67/PulseUP/internal/utils"
-	"github.com/RouXx67/PulseUP/internal/websocket"
-	agentsdocker "github.com/RouXx67/PulseUP/pkg/agents/docker"
+	"github.com/RouXx67/PulseUp/internal/monitoring"
+	"github.com/RouXx67/PulseUp/internal/utils"
+	"github.com/RouXx67/PulseUp/internal/websocket"
+	agentsdocker "github.com/RouXx67/PulseUp/pkg/agents/docker"
 	"github.com/rs/zerolog/log"
 )
 

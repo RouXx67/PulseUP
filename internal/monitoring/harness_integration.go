@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/RouXx67/PulseUP/internal/config"
-	"github.com/RouXx67/PulseUP/pkg/pbs"
-	"github.com/RouXx67/PulseUP/pkg/pmg"
-	"github.com/RouXx67/PulseUP/pkg/proxmox"
+	"github.com/RouXx67/PulseUp/internal/config"
+	"github.com/RouXx67/PulseUp/pkg/pbs"
+	"github.com/RouXx67/PulseUp/pkg/pmg"
+	"github.com/RouXx67/PulseUp/pkg/proxmox"
 )
 
 // FailureType describes scripted failure behaviour used by the harness.

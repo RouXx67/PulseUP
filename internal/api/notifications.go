@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/RouXx67/PulseUP/internal/monitoring"
-	"github.com/RouXx67/PulseUP/internal/notifications"
-	"github.com/RouXx67/PulseUP/internal/utils"
+	"github.com/RouXx67/PulseUp/internal/monitoring"
+	"github.com/RouXx67/PulseUp/internal/notifications"
+	"github.com/RouXx67/PulseUp/internal/utils"
 	"github.com/rs/zerolog/log"
 )
 

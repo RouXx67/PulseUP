@@ -1057,7 +1057,7 @@ function AppLayout(props: {
       <footer class="text-center text-xs text-gray-500 dark:text-gray-400 py-4">
         Pulse | Version:{' '}
         <a
-          href="https://github.com/RouXx67/PulseUP/releases"
+          href="https://github.com/RouXx67/PulseUp/releases"
           target="_blank"
           rel="noopener noreferrer"
           class="text-blue-600 dark:text-blue-400 hover:underline"

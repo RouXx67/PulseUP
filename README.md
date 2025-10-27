@@ -1,11 +1,13 @@
-# PulseUP
+# PulseUp
 
-[![GitHub release](https://img.shields.io/github/v/release/RouXx67/PulseUP)](https://github.com/RouXx67/PulseUP/releases/latest)
-[![License](https://img.shields.io/github/license/RouXx67/PulseUP)](LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/RouXx67/PulseUp)](https://github.com/RouXx67/PulseUp/releases/latest)
+[![License](https://img.shields.io/github/license/RouXx67/PulseUp)](LICENSE)
 
 **Monitoring en temps réel pour Proxmox VE, Proxmox Mail Gateway, PBS, Docker et surveillance des mises à jour d'applications.**
 
-PulseUP est un fork de [Pulse](https://github.com/RouXx67/PulseUP) qui intègre les fonctionnalités de [SelfUp](https://github.com/RouXx67/SelfUp) pour offrir une solution complète de monitoring d'infrastructure et de surveillance des mises à jour d'applications.
+## 🚀 À propos
+
+PulseUp est un fork de [PulseUp](https://github.com/RouXx67/PulseUp) qui intègre les fonctionnalités de [SelfUp](https://github.com/RouXx67/SelfUp) pour offrir une solution complète de monitoring d'infrastructure et de surveillance des mises à jour d'applications.
 
 Surveillez votre infrastructure hybride Proxmox et Docker depuis un tableau de bord unique, tout en gardant un œil sur les mises à jour de vos applications. Recevez des alertes instantanées lorsque des nœuds tombent, des conteneurs dysfonctionnent, des sauvegardes échouent, le stockage se remplit, ou quand des mises à jour sont disponibles pour vos applications.
 
@@ -13,16 +15,16 @@ Surveillez votre infrastructure hybride Proxmox et Docker depuis un tableau de b
 
 ## À propos de ce projet
 
-PulseUP combine le meilleur de deux mondes :
+PulseUp combine le meilleur de deux mondes :
 
-- **Pulse** : Solution de monitoring robuste pour l'infrastructure Proxmox et Docker
+- **PulseUp** : Solution de monitoring robuste pour l'infrastructure Proxmox et Docker
 - **SelfUp** : Système de surveillance des mises à jour d'applications
 
 Cette intégration permet de centraliser la surveillance de votre infrastructure ET de vos applications dans une seule interface, avec un système d'alertes unifié.
 
 ## Fonctionnalités
 
-### Monitoring d'Infrastructure (Pulse)
+### Monitoring d'Infrastructure (PulseUp)
 
 - **Auto-Discovery** : Trouve automatiquement les nœuds Proxmox sur votre réseau
 - **Support Cluster** : Configurez un nœud, surveillez tout le cluster
@@ -70,7 +72,7 @@ Cette intégration permet de centraliser la surveillance de votre infrastructure
 
 ## Confidentialité
 
-PulseUP respecte votre vie privée :
+PulseUp respecte votre vie privée :
 
 - Aucune télémétrie ou collecte d'analytics
 - Aucune fonctionnalité de "phone-home"
@@ -86,21 +88,21 @@ Vos données d'infrastructure vous appartiennent exclusivement.
 
 ```bash
 # Recommandé : Installateur officiel (détecte automatiquement Proxmox)
-curl -fsSL https://raw.githubusercontent.com/RouXx67/PulseUP/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/RouXx67/PulseUp/main/install.sh | bash
 
 # Revenir à une version précédente ? Passez le tag souhaité
-curl -fsSL https://raw.githubusercontent.com/RouXx67/PulseUP/main/install.sh | bash -s -- --version v4.20.0
+curl -fsSL https://raw.githubusercontent.com/RouXx67/PulseUp/main/install.sh | bash -s -- --version v4.20.0
 
 # Alternative : Docker
 docker run -d -p 7655:7655 -v pulse_data:/data rouxxx67/pulseup:latest
 
 # Test : Installation depuis la branche main (pour tester les derniers correctifs)
-curl -fsSL https://raw.githubusercontent.com/RouXx67/PulseUP/main/install.sh | bash -s -- --source
+curl -fsSL https://raw.githubusercontent.com/RouXx67/PulseUp/main/install.sh | bash -s -- --source
 
 # Alternative : Kubernetes (Helm)
 helm registry login ghcr.io
 helm install pulseup oci://ghcr.io/rouxxx67/pulseup-chart \
-  --version $(curl -fsSL https://raw.githubusercontent.com/RouXx67/PulseUP/main/VERSION) \
+  --version $(curl -fsSL https://raw.githubusercontent.com/RouXx67/PulseUp/main/VERSION) \
   --namespace pulseup \
   --create-namespace
 ```
@@ -167,7 +169,7 @@ Pour les déploiements automatisés, configurez l'authentification via variables
 
 ## Développement
 
-PulseUP est construit avec :
+PulseUp est construit avec :
 - **Backend** : Go avec Gin framework
 - **Frontend** : SolidJS avec TypeScript
 - **Base de données** : SQLite (intégrée)
@@ -181,9 +183,9 @@ Les contributions sont les bienvenues ! Veuillez consulter notre [guide de contr
 
 ## Support
 
-- **Issues** : [GitHub Issues](https://github.com/RouXx67/PulseUP/issues)
-- **Discussions** : [GitHub Discussions](https://github.com/RouXx67/PulseUP/discussions)
-- **Documentation** : [Wiki](https://github.com/RouXx67/PulseUP/wiki)
+- **Issues** : [GitHub Issues](https://github.com/RouXx67/PulseUp/issues)
+- **Discussions** : [GitHub Discussions](https://github.com/RouXx67/PulseUp/discussions)
+- **Documentation** : [Wiki](https://github.com/RouXx67/PulseUp/wiki)
 
 ## Licence
 
@@ -191,10 +193,10 @@ Ce projet est sous licence [MIT](LICENSE).
 
 ## Remerciements
 
-- **Pulse** : Merci à [rcourtman](https://github.com/rcourtman) pour le projet Pulse original
+- **PulseUp** : Merci à [rcourtman](https://github.com/rcourtman) pour le projet PulseUp original
 - **SelfUp** : Projet de surveillance des mises à jour intégré
 - **Communauté** : Tous les contributeurs et utilisateurs qui rendent ce projet possible
 
 ---
 
-**PulseUP** - Monitoring d'infrastructure et surveillance des mises à jour, unifiés.
+**PulseUp** - Monitoring d'infrastructure et surveillance des mises à jour, unifiés.

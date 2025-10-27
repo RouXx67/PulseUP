@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/RouXx67/PulseUP/internal/errors"
-	"github.com/RouXx67/PulseUP/internal/logging"
-	"github.com/RouXx67/PulseUP/pkg/pbs"
-	"github.com/RouXx67/PulseUP/pkg/pmg"
+	"github.com/RouXx67/PulseUp/internal/errors"
+	"github.com/RouXx67/PulseUp/internal/logging"
+	"github.com/RouXx67/PulseUp/pkg/pbs"
+	"github.com/RouXx67/PulseUp/pkg/pmg"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 )

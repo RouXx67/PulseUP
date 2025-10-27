@@ -15,14 +15,14 @@ import (
 	"time"
 
 	gorillaws "github.com/gorilla/websocket"
-	"github.com/RouXx67/PulseUP/internal/api"
-	internalauth "github.com/RouXx67/PulseUP/internal/auth"
-	"github.com/RouXx67/PulseUP/internal/config"
-	"github.com/RouXx67/PulseUP/internal/mock"
-	"github.com/RouXx67/PulseUP/internal/models"
-	"github.com/RouXx67/PulseUP/internal/monitoring"
-	"github.com/RouXx67/PulseUP/internal/updates"
-	internalws "github.com/RouXx67/PulseUP/internal/websocket"
+	"github.com/RouXx67/PulseUp/internal/api"
+	internalauth "github.com/RouXx67/PulseUp/internal/auth"
+	"github.com/RouXx67/PulseUp/internal/config"
+	"github.com/RouXx67/PulseUp/internal/mock"
+	"github.com/RouXx67/PulseUp/internal/models"
+	"github.com/RouXx67/PulseUp/internal/monitoring"
+	"github.com/RouXx67/PulseUp/internal/updates"
+	internalws "github.com/RouXx67/PulseUp/internal/websocket"
 )
 
 type integrationServer struct {

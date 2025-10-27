@@ -9,7 +9,7 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/RouXx67/PulseUP/internal/models"
+	"github.com/RouXx67/PulseUp/internal/models"
 )
 
 type MockConfig struct {

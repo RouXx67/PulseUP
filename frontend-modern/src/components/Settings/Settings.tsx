@@ -4324,7 +4324,7 @@ const Settings: Component<SettingsProps> = (props) => {
                         Need configuration tips? Review the proxy auth guide in the docs.{' '}
                         <a
                           class="underline font-medium"
-                          href="https://github.com/RouXx67/PulseUP/blob/main/docs/PROXY_AUTH.md"
+                          href="https://github.com/RouXx67/PulseUp/blob/main/docs/PROXY_AUTH.md"
                           target="_blank"
                           rel="noreferrer"
                         >

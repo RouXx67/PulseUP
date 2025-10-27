@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/RouXx67/PulseUP/internal/updates"
+	"github.com/RouXx67/PulseUp/internal/updates"
 	"github.com/rs/zerolog/log"
 )
 

@@ -35,7 +35,7 @@ When you need to provision the proxy yourself (for example via your own automati
 
 1. **Install the binary**
    ```bash
-   curl -L https://github.com/RouXx67/PulseUP/releases/download/<TAG>/pulse-sensor-proxy-linux-amd64 \
+   curl -L https://github.com/RouXx67/PulseUp/releases/download/<TAG>/pulse-sensor-proxy-linux-amd64 \
      -o /usr/local/bin/pulse-sensor-proxy
    chmod 0755 /usr/local/bin/pulse-sensor-proxy
    ```
@@ -854,7 +854,7 @@ If temperature monitoring isn't working:
    ssh root@cluster-node "sensors -j"
    ```
 
-3. **Check GitHub Issues:** https://github.com/RouXx67/PulseUP/issues
+3. **Check GitHub Issues:** https://github.com/RouXx67/PulseUp/issues
 4. **Include in bug report:**
    - Pulse version
    - Deployment type (LXC/Docker/native)

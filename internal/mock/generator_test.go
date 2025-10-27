@@ -3,7 +3,7 @@ package mock
 import (
 	"testing"
 
-	"github.com/RouXx67/PulseUP/internal/models"
+	"github.com/RouXx67/PulseUp/internal/models"
 )
 
 func TestGenerateMockDataIncludesDockerHosts(t *testing.T) {

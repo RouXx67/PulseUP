@@ -3,9 +3,9 @@ package config
 import (
 	"strings"
 
-	"github.com/RouXx67/PulseUP/pkg/pbs"
-	"github.com/RouXx67/PulseUP/pkg/pmg"
-	"github.com/RouXx67/PulseUP/pkg/proxmox"
+	"github.com/RouXx67/PulseUp/pkg/pbs"
+	"github.com/RouXx67/PulseUp/pkg/pmg"
+	"github.com/RouXx67/PulseUp/pkg/proxmox"
 )
 
 // CreateProxmoxConfig creates a proxmox.ClientConfig from a PVEInstance

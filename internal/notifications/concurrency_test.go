@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/RouXx67/PulseUP/internal/alerts"
+	"github.com/RouXx67/PulseUp/internal/alerts"
 	"github.com/rs/zerolog"
 )
 

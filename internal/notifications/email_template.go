@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/RouXx67/PulseUP/internal/alerts"
+	"github.com/RouXx67/PulseUp/internal/alerts"
 )
 
 // EmailTemplate generates a professional HTML email template for alerts

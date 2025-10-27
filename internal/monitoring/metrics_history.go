@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/RouXx67/PulseUP/internal/types"
+	"github.com/RouXx67/PulseUp/internal/types"
 )
 
 // Use MetricPoint from types package

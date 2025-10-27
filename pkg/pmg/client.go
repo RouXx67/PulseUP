@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/RouXx67/PulseUP/pkg/tlsutil"
+	"github.com/RouXx67/PulseUp/pkg/tlsutil"
 	"github.com/rs/zerolog/log"
 )
 

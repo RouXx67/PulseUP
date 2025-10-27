@@ -3,7 +3,7 @@ package monitoring
 import (
 	"sync"
 
-	"github.com/RouXx67/PulseUP/internal/types"
+	"github.com/RouXx67/PulseUp/internal/types"
 )
 
 // Use IOMetrics from types package

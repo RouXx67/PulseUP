@@ -3,10 +3,10 @@ package adapters
 import (
 	"time"
 
-	"github.com/RouXx67/PulseUP/internal/interfaces"
-	"github.com/RouXx67/PulseUP/internal/models"
-	"github.com/RouXx67/PulseUP/internal/monitoring"
-	"github.com/RouXx67/PulseUP/internal/types"
+	"github.com/RouXx67/PulseUp/internal/interfaces"
+	"github.com/RouXx67/PulseUp/internal/models"
+	"github.com/RouXx67/PulseUp/internal/monitoring"
+	"github.com/RouXx67/PulseUp/internal/types"
 )
 
 // StateAdapter adapts the concrete State to the StateStore interface

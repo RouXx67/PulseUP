@@ -370,7 +370,7 @@ check_docker_environment() {
        [[ "${container:-}" == "docker" ]]; then
         print_error "Docker environment detected"
         echo "Please use the Docker image directly: docker run -d -p 7655:7655 RouXx67/pulseup:latest"
-        echo "See: https://github.com/RouXx67/PulseUP/blob/main/docs/DOCKER.md"
+        echo "See: https://github.com/RouXx67/PulseUp/blob/main/docs/DOCKER.md"
         exit 1
     fi
 }
@@ -1955,7 +1955,7 @@ build_agent_binaries_from_source() {
             env_cmd+=(GOARM="$goarm")
         fi
 
-        if ! "${env_cmd[@]}" go build -ldflags="-X github.com/RouXx67/PulseUP/internal/dockeragent.Version=${agent_version}" -o "$output" ./cmd/pulse-docker-agent >/dev/null 2>&1; then
+        if ! "${env_cmd[@]}" go build -ldflags="-X github.com/RouXx67/PulseUp/internal/dockeragent.Version=${agent_version}" -o "$output" ./cmd/pulse-docker-agent >/dev/null 2>&1; then
             print_warn "Failed to build Docker agent for $suffix"
             rm -f "$output"
             continue
@@ -2119,7 +2119,7 @@ build_from_source() {
     chmod +x "$INSTALL_DIR/bin/pulse"
 
     agent_version=$(git describe --tags --always --dirty 2>/dev/null || echo "dev")
-    if ! go build -ldflags="-X github.com/RouXx67/PulseUP/internal/dockeragent.Version=${agent_version}" -o pulse-docker-agent ./cmd/pulse-docker-agent >/dev/null 2>&1; then
+    if ! go build -ldflags="-X github.com/RouXx67/PulseUp/internal/dockeragent.Version=${agent_version}" -o pulse-docker-agent ./cmd/pulse-docker-agent >/dev/null 2>&1; then
         print_error "Failed to build Docker agent binary"
         cd "$original_dir" >/dev/null 2>&1 || true
         rm -rf "$temp_build"
@@ -2284,7 +2284,7 @@ setup_auto_updates() {
     cat > /etc/systemd/system/pulse-update.service << 'EOF'
 [Unit]
 Description=Automatic Pulse update check and install
-Documentation=https://github.com/RouXx67/PulseUP
+Documentation=https://github.com/RouXx67/PulseUp
 After=network-online.target
 Wants=network-online.target
 
@@ -2312,7 +2312,7 @@ EOF
     cat > /etc/systemd/system/pulse-update.timer << 'EOF'
 [Unit]
 Description=Daily check for Pulse updates
-Documentation=https://github.com/RouXx67/PulseUP
+Documentation=https://github.com/RouXx67/PulseUp
 After=network-online.target
 Wants=network-online.target
 

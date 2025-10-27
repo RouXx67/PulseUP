@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	"github.com/RouXx67/PulseUP/internal/dockeragent"
+	"github.com/RouXx67/PulseUp/internal/dockeragent"
 )
 
 func TestParseTargetSpec(t *testing.T) {

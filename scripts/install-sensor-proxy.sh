@@ -590,7 +590,7 @@ if [[ "$STANDALONE" == true ]]; then
     cat > "$SERVICE_PATH" << 'EOF'
 [Unit]
 Description=Pulse Temperature Proxy
-Documentation=https://github.com/RouXx67/PulseUP
+Documentation=https://github.com/RouXx67/PulseUp
 After=network.target
 
 [Service]
@@ -648,7 +648,7 @@ else
     cat > "$SERVICE_PATH" << 'EOF'
 [Unit]
 Description=Pulse Temperature Proxy
-Documentation=https://github.com/RouXx67/PulseUP
+Documentation=https://github.com/RouXx67/PulseUp
 After=network.target
 
 [Service]
@@ -897,7 +897,7 @@ CLEANUP_PATH_UNIT="/etc/systemd/system/pulse-sensor-cleanup.path"
 cat > "$CLEANUP_PATH_UNIT" << 'PATH_EOF'
 [Unit]
 Description=Watch for Pulse sensor cleanup requests
-Documentation=https://github.com/RouXx67/PulseUP
+Documentation=https://github.com/RouXx67/PulseUp
 
 [Path]
 # Watch for the cleanup request file
@@ -914,7 +914,7 @@ CLEANUP_SERVICE_UNIT="/etc/systemd/system/pulse-sensor-cleanup.service"
 cat > "$CLEANUP_SERVICE_UNIT" << 'SERVICE_EOF'
 [Unit]
 Description=Pulse Sensor Cleanup Service
-Documentation=https://github.com/RouXx67/PulseUP
+Documentation=https://github.com/RouXx67/PulseUp
 After=network.target
 
 [Service]

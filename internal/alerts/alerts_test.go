@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/RouXx67/PulseUP/internal/models"
+	"github.com/RouXx67/PulseUp/internal/models"
 )
 
 func TestAcknowledgePersistsThroughCheckMetric(t *testing.T) {

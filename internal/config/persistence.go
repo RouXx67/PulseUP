@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/RouXx67/PulseUP/internal/alerts"
-	"github.com/RouXx67/PulseUP/internal/crypto"
-	"github.com/RouXx67/PulseUP/internal/mock"
-	"github.com/RouXx67/PulseUP/internal/notifications"
+	"github.com/RouXx67/PulseUp/internal/alerts"
+	"github.com/RouXx67/PulseUp/internal/crypto"
+	"github.com/RouXx67/PulseUp/internal/mock"
+	"github.com/RouXx67/PulseUp/internal/notifications"
 	"github.com/rs/zerolog/log"
 )
 

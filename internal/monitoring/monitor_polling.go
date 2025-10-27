@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/RouXx67/PulseUP/internal/errors"
-	"github.com/RouXx67/PulseUP/internal/logging"
-	"github.com/RouXx67/PulseUP/internal/models"
-	"github.com/RouXx67/PulseUP/pkg/proxmox"
+	"github.com/RouXx67/PulseUp/internal/errors"
+	"github.com/RouXx67/PulseUp/internal/logging"
+	"github.com/RouXx67/PulseUp/internal/models"
+	"github.com/RouXx67/PulseUp/pkg/proxmox"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 )

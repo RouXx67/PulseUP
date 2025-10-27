@@ -12,8 +12,8 @@ import (
 	"sync"
 	"time"
 
-	internalauth "github.com/RouXx67/PulseUP/internal/auth"
-	"github.com/RouXx67/PulseUP/internal/config"
+	internalauth "github.com/RouXx67/PulseUp/internal/auth"
+	"github.com/RouXx67/PulseUp/internal/config"
 	"github.com/rs/zerolog/log"
 )
 

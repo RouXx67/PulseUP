@@ -15,9 +15,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/RouXx67/PulseUP/internal/models"
-	"github.com/RouXx67/PulseUP/internal/ssh/knownhosts"
-	"github.com/RouXx67/PulseUP/internal/tempproxy"
+	"github.com/RouXx67/PulseUp/internal/models"
+	"github.com/RouXx67/PulseUp/internal/ssh/knownhosts"
+	"github.com/RouXx67/PulseUp/internal/tempproxy"
 	"github.com/rs/zerolog/log"
 )
 

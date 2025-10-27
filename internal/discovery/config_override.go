@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/RouXx67/PulseUP/internal/config"
-	pkgdiscovery "github.com/RouXx67/PulseUP/pkg/discovery"
-	"github.com/RouXx67/PulseUP/pkg/discovery/envdetect"
+	"github.com/RouXx67/PulseUp/internal/config"
+	pkgdiscovery "github.com/RouXx67/PulseUp/pkg/discovery"
+	"github.com/RouXx67/PulseUp/pkg/discovery/envdetect"
 )
 
 // BuildScanner creates a discovery scanner configured using the supplied discovery config.

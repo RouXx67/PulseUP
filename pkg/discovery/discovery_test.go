@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/RouXx67/PulseUP/pkg/discovery/envdetect"
+	"github.com/RouXx67/PulseUp/pkg/discovery/envdetect"
 )
 
 func newTestScanner(client *http.Client) *Scanner {

@@ -244,7 +244,7 @@ If you encounter scenarios where manual management endpoints would be valuable:
    - How would manual control have helped?
 
 2. **File an issue**
-   - [GitHub Issues](https://github.com/RouXx67/PulseUP/issues)
+   - [GitHub Issues](https://github.com/RouXx67/PulseUp/issues)
    - Include: scheduler health API output, logs, timeline
 
 3. **Track frequency**

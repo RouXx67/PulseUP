@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/RouXx67/PulseUP/internal/tempproxy"
+	"github.com/RouXx67/PulseUp/internal/tempproxy"
 )
 
 type stubProxyResponse struct {

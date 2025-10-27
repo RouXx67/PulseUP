@@ -41,7 +41,7 @@ environment where `PULSE_DOCKER=true`/`/.dockerenv` is detected.
 1. **Deploy `pulse-sensor-proxy` on each Proxmox host**
    ```bash
    curl -o /usr/local/bin/pulse-sensor-proxy \
-     https://github.com/RouXx67/PulseUP/releases/latest/download/pulse-sensor-proxy
+     https://github.com/RouXx67/PulseUp/releases/latest/download/pulse-sensor-proxy
    chmod +x /usr/local/bin/pulse-sensor-proxy
    ```
 2. **Create a systemd unit** (`/etc/systemd/system/pulse-sensor-proxy.service`)
@@ -121,7 +121,7 @@ systemctl status pulse-sensor-proxy
 ```
 
 **Documentation:** https://docs.pulseapp.io/security/containerized-deployments  
-**Issues:** https://github.com/RouXx67/PulseUP/issues  
+**Issues:** https://github.com/RouXx67/PulseUp/issues  
 **Private disclosures:** security@pulseapp.io
 
 ---

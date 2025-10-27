@@ -140,7 +140,7 @@ export function UpdateBanner() {
                 )}
                 {!isExpanded() && (
                   <a
-                    href={`https://github.com/RouXx67/PulseUP/releases/tag/${updateStore.updateInfo()?.latestVersion}`}
+                    href={`https://github.com/RouXx67/PulseUp/releases/tag/${updateStore.updateInfo()?.latestVersion}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     class="text-blue-600 dark:text-blue-400 underline text-sm hidden sm:inline hover:text-blue-700 dark:hover:text-blue-300"
@@ -259,7 +259,7 @@ export function UpdateBanner() {
 
                 <div class="flex gap-3 mt-2">
                   <a
-                    href={`https://github.com/RouXx67/PulseUP/releases/tag/${updateStore.updateInfo()?.latestVersion}`}
+                    href={`https://github.com/RouXx67/PulseUp/releases/tag/${updateStore.updateInfo()?.latestVersion}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     class="text-blue-600 dark:text-blue-400 underline hover:text-blue-700 dark:hover:text-blue-300 text-xs"

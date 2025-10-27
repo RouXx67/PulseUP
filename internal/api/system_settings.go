@@ -14,10 +14,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/RouXx67/PulseUP/internal/config"
-	"github.com/RouXx67/PulseUP/internal/discovery"
-	"github.com/RouXx67/PulseUP/internal/utils"
-	"github.com/RouXx67/PulseUP/internal/websocket"
+	"github.com/RouXx67/PulseUp/internal/config"
+	"github.com/RouXx67/PulseUp/internal/discovery"
+	"github.com/RouXx67/PulseUp/internal/utils"
+	"github.com/RouXx67/PulseUp/internal/websocket"
 	"github.com/rs/zerolog/log"
 )
 

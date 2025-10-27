@@ -1,6 +1,6 @@
 # Pulse
 
-[![GitHub release](https://img.shields.io/github/v/release/rcourtman/Pulse)](https://github.com/RouXx67/PulseUP/releases/latest)
+[![GitHub release](https://img.shields.io/github/v/release/rcourtman/Pulse)](https://github.com/RouXx67/PulseUp/releases/latest)
 [![Docker Pulls](https://img.shields.io/docker/pulls/rcourtman/pulse)](https://hub.docker.com/r/rcourtman/pulse)
 [![License](https://img.shields.io/github/license/rcourtman/Pulse)](LICENSE)
 
@@ -55,7 +55,7 @@ Pulse is built by a solo developer in evenings and weekends. Your support helps:
 - Dark/light themes, responsive design
 - Built with Go for minimal resource usage
 
-[View screenshots and full documentation on GitHub →](https://github.com/RouXx67/PulseUP)
+[View screenshots and full documentation on GitHub →](https://github.com/RouXx67/PulseUp)
 
 ## Privacy
 
@@ -244,7 +244,7 @@ docker stop pulse && docker rm pulse
   - API tokens visible only to authenticated users
   - Export/import requires authentication when configured
 
-See [Security Documentation](https://github.com/RouXx67/PulseUP/blob/main/docs/SECURITY.md) for details.
+See [Security Documentation](https://github.com/RouXx67/PulseUp/blob/main/docs/SECURITY.md) for details.
 
 ## HTTPS/TLS Configuration
 
@@ -302,24 +302,24 @@ docker logs -f pulse
 
 Full documentation available on GitHub:
 
-- [Complete Installation Guide](https://github.com/RouXx67/PulseUP/blob/main/docs/INSTALL.md)
-- [Configuration Guide](https://github.com/RouXx67/PulseUP/blob/main/docs/CONFIGURATION.md)
-- [VM Disk Monitoring](https://github.com/RouXx67/PulseUP/blob/main/docs/VM_DISK_MONITORING.md) - Set up QEMU Guest Agent for accurate VM disk usage
-- [Troubleshooting](https://github.com/RouXx67/PulseUP/blob/main/docs/TROUBLESHOOTING.md)
-- [API Reference](https://github.com/RouXx67/PulseUP/blob/main/docs/API.md)
-- [Webhook Guide](https://github.com/RouXx67/PulseUP/blob/main/docs/WEBHOOKS.md)
-- [Proxy Authentication](https://github.com/RouXx67/PulseUP/blob/main/docs/PROXY_AUTH.md) - SSO integration with Authentik, Authelia, etc.
-- [Reverse Proxy Setup](https://github.com/RouXx67/PulseUP/blob/main/docs/REVERSE_PROXY.md) - nginx, Caddy, Apache, Traefik configs
-- [Security](https://github.com/RouXx67/PulseUP/blob/main/docs/SECURITY.md)
-- [FAQ](https://github.com/RouXx67/PulseUP/blob/main/docs/FAQ.md)
+- [Complete Installation Guide](https://github.com/RouXx67/PulseUp/blob/main/docs/INSTALL.md)
+- [Configuration Guide](https://github.com/RouXx67/PulseUp/blob/main/docs/CONFIGURATION.md)
+- [VM Disk Monitoring](https://github.com/RouXx67/PulseUp/blob/main/docs/VM_DISK_MONITORING.md) - Set up QEMU Guest Agent for accurate VM disk usage
+- [Troubleshooting](https://github.com/RouXx67/PulseUp/blob/main/docs/TROUBLESHOOTING.md)
+- [API Reference](https://github.com/RouXx67/PulseUp/blob/main/docs/API.md)
+- [Webhook Guide](https://github.com/RouXx67/PulseUp/blob/main/docs/WEBHOOKS.md)
+- [Proxy Authentication](https://github.com/RouXx67/PulseUp/blob/main/docs/PROXY_AUTH.md) - SSO integration with Authentik, Authelia, etc.
+- [Reverse Proxy Setup](https://github.com/RouXx67/PulseUp/blob/main/docs/REVERSE_PROXY.md) - nginx, Caddy, Apache, Traefik configs
+- [Security](https://github.com/RouXx67/PulseUp/blob/main/docs/SECURITY.md)
+- [FAQ](https://github.com/RouXx67/PulseUp/blob/main/docs/FAQ.md)
 
 ## Links
 
-- [GitHub Repository](https://github.com/RouXx67/PulseUP)
-- [Releases & Changelog](https://github.com/RouXx67/PulseUP/releases)
-- [Issues & Feature Requests](https://github.com/RouXx67/PulseUP/issues)
+- [GitHub Repository](https://github.com/RouXx67/PulseUp)
+- [Releases & Changelog](https://github.com/RouXx67/PulseUp/releases)
+- [Issues & Feature Requests](https://github.com/RouXx67/PulseUp/issues)
 - [Live Demo](https://demo.pulserelay.pro)
 
 ## License
 
-MIT - See [LICENSE](https://github.com/RouXx67/PulseUP/blob/main/LICENSE)
+MIT - See [LICENSE](https://github.com/RouXx67/PulseUp/blob/main/LICENSE)

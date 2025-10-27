@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/RouXx67/PulseUP/internal/config"
-	"github.com/RouXx67/PulseUP/pkg/pmg"
+	"github.com/RouXx67/PulseUp/internal/config"
+	"github.com/RouXx67/PulseUp/pkg/pmg"
 )
 
 func TestPollPMGInstancePopulatesState(t *testing.T) {
