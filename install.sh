@@ -1631,16 +1631,21 @@ download_pulse() {
         if [[ -z "$LATEST_RELEASE" ]]; then
             print_info "GitHub API unavailable, trying alternative method..."
             if command -v timeout >/dev/null 2>&1; then
-                LATEST_RELEASE=$(timeout 10 curl -sI --connect-timeout 5 --max-time 10 https://github.com/$GITHUB_REPO/releases/latest 2>/dev/null | grep -i '^location:' | sed -E 's|.*tag/([^[:space:]]+).*|\1|' | tr -d '\r' || true)
+                REDIRECT_LOCATION=$(timeout 10 curl -sI --connect-timeout 5 --max-time 10 https://github.com/$GITHUB_REPO/releases/latest 2>/dev/null | grep -i '^location:' | tr -d '\r' || true)
             else
-                LATEST_RELEASE=$(curl -sI --connect-timeout 5 --max-time 10 https://github.com/$GITHUB_REPO/releases/latest 2>/dev/null | grep -i '^location:' | sed -E 's|.*tag/([^[:space:]]+).*|\1|' | tr -d '\r' || true)
+                REDIRECT_LOCATION=$(curl -sI --connect-timeout 5 --max-time 10 https://github.com/$GITHUB_REPO/releases/latest 2>/dev/null | grep -i '^location:' | tr -d '\r' || true)
+            fi
+            
+            # Extract version from redirect location if it contains a tag
+            if [[ "$REDIRECT_LOCATION" == *"/tag/"* ]]; then
+                LATEST_RELEASE=$(echo "$REDIRECT_LOCATION" | sed -E 's|.*tag/([^[:space:]]+).*|\1|')
             fi
         fi
 
         # Final fallback: Use a known good version
-        if [[ -z "$LATEST_RELEASE" ]]; then
+        if [[ -z "$LATEST_RELEASE" ]] || [[ "$LATEST_RELEASE" == "location:"* ]]; then
             print_warn "Could not determine latest release from GitHub, using fallback version"
-            LATEST_RELEASE="v4.5.1"  # Known stable version as fallback
+            LATEST_RELEASE="v1.0.0"  # Known stable version as fallback
         fi
 
         print_info "Latest version: $LATEST_RELEASE"
