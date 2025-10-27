@@ -4,7 +4,7 @@
 
 set -euo pipefail
 
-PULSE_IMAGE="${PULSE_IMAGE:-rcourtman/pulse:latest}"
+PULSE_IMAGE="${PULSE_IMAGE:-RouXx67/PulseUP:latest}"
 PULSE_PORT="${PULSE_PORT:-7655}"
 PULSE_PROXY_CHANNEL="${PULSE_PROXY_CHANNEL:-stable}"
 DETERMINED_PROXY_VERSION=""
@@ -38,7 +38,7 @@ set_github_fallback_url() {
 
     local base=""
     if [[ "$ref" == "main" ]]; then
-        base="https://raw.githubusercontent.com/rcourtman/Pulse/${ref}/release/pulse-sensor-proxy-${PROXY_ARCH_LABEL}"
+        base="https://raw.githubusercontent.com/RouXx67/PulseUP/${ref}/release/pulse-sensor-proxy-${PROXY_ARCH_LABEL}"
     else
         base="https://github.com/RouXx67/PulseUP/releases/download/${ref}/pulse-sensor-proxy-${PROXY_ARCH_LABEL}"
     fi
@@ -266,10 +266,10 @@ determine_proxy_release() {
 
     if command -v curl >/dev/null 2>&1; then
         if [[ "$channel" == "rc" ]]; then
-            api_url="https://api.github.com/repos/rcourtman/Pulse/releases"
+            api_url="https://api.github.com/repos/RouXx67/PulseUP/releases"
             tag=$(curl -fsSL --connect-timeout 5 --max-time 15 "$api_url" 2>/dev/null | grep '"tag_name":' | head -1 | sed -E 's/.*"([^"]+)".*/\1/' || true)
         else
-            api_url="https://api.github.com/repos/rcourtman/Pulse/releases/latest"
+            api_url="https://api.github.com/repos/RouXx67/PulseUP/releases/latest"
             tag=$(curl -fsSL --connect-timeout 5 --max-time 15 "$api_url" 2>/dev/null | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/' || true)
         fi
     fi
@@ -323,7 +323,7 @@ download_installer_from_github() {
         fi
     fi
 
-    local raw_url="https://raw.githubusercontent.com/rcourtman/Pulse/${ref}/scripts/install-sensor-proxy.sh"
+    local raw_url="https://raw.githubusercontent.com/RouXx67/PulseUP/${ref}/scripts/install-sensor-proxy.sh"
     attempted=true
     if curl --fail --silent --location --connect-timeout 5 --max-time 30 "$raw_url" -o "$destination" 2>/dev/null; then
         chmod +x "$destination"
@@ -606,7 +606,7 @@ version: '3.8'
 
 services:
   pulse:
-    image: ${PULSE_IMAGE:-rcourtman/pulse:latest}
+    image: ${PULSE_IMAGE:-RouXx67/PulseUP:latest}
     container_name: pulse
     restart: unless-stopped
     user: "1000:1000"

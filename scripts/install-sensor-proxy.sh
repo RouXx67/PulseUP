@@ -397,7 +397,7 @@ else
             ;;
     esac
 
-    GITHUB_REPO="rcourtman/Pulse"
+    GITHUB_REPO="RouXx67/PulseUP"
     DOWNLOAD_SUCCESS=false
     ATTEMPTED_SOURCES=()
     LATEST_RELEASE_TAG=""

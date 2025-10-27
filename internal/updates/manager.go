@@ -313,7 +313,7 @@ func (m *Manager) CheckForUpdatesWithChannel(ctx context.Context, channel string
 func (m *Manager) ApplyUpdate(ctx context.Context, downloadURL string) error {
 	// Validate download URL (allow test server URLs when PULSE_UPDATE_SERVER is set)
 	if os.Getenv("PULSE_UPDATE_SERVER") == "" {
-		if !strings.HasPrefix(downloadURL, "https://github.com/rcourtman/Pulse/releases/download/") {
+		if !strings.HasPrefix(downloadURL, "https://github.com/RouXx67/PulseUP/releases/download/") {
 			return fmt.Errorf("invalid download URL")
 		}
 	}

@@ -376,7 +376,7 @@ func (a *InstallShAdapter) downloadBinary(ctx context.Context, version string) (
 	}
 
 	// Download URL
-	url := fmt.Sprintf("https://github.com/rcourtman/Pulse/releases/download/%s/pulse-linux-%s", version, arch)
+	url := fmt.Sprintf("https://github.com/RouXx67/PulseUP/releases/download/%s/pulse-linux-%s", version, arch)
 
 	// Create temp file
 	tmpFile, err := os.CreateTemp("", "pulse-rollback-*")

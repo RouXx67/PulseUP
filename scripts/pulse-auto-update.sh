@@ -7,7 +7,7 @@
 set -euo pipefail
 
 # Configuration
-GITHUB_REPO="rcourtman/Pulse"
+GITHUB_REPO="RouXx67/PulseUP"
 INSTALL_DIR="/opt/pulse"
 CONFIG_DIR="/etc/pulse"
 LOG_TAG="pulse-auto-update"

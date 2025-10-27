@@ -16,7 +16,7 @@ NC='\033[0m' # No Color
 INSTALL_DIR="/opt/pulse"
 CONFIG_DIR="/etc/pulse"  # All config and data goes here for manual installs
 SERVICE_NAME="pulse"
-GITHUB_REPO="rcourtman/Pulse"
+GITHUB_REPO="RouXx67/PulseUP"
 BUILD_FROM_SOURCE=false
 SKIP_DOWNLOAD=false
 IN_CONTAINER=false
@@ -1950,7 +1950,7 @@ build_agent_binaries_from_source() {
             env_cmd+=(GOARM="$goarm")
         fi
 
-        if ! "${env_cmd[@]}" go build -ldflags="-X github.com/rcourtman/pulse-go-rewrite/internal/dockeragent.Version=${agent_version}" -o "$output" ./cmd/pulse-docker-agent >/dev/null 2>&1; then
+        if ! "${env_cmd[@]}" go build -ldflags="-X github.com/RouXx67/PulseUP/internal/dockeragent.Version=${agent_version}" -o "$output" ./cmd/pulse-docker-agent >/dev/null 2>&1; then
             print_warn "Failed to build Docker agent for $suffix"
             rm -f "$output"
             continue
@@ -2114,7 +2114,7 @@ build_from_source() {
     chmod +x "$INSTALL_DIR/bin/pulse"
 
     agent_version=$(git describe --tags --always --dirty 2>/dev/null || echo "dev")
-    if ! go build -ldflags="-X github.com/rcourtman/pulse-go-rewrite/internal/dockeragent.Version=${agent_version}" -o pulse-docker-agent ./cmd/pulse-docker-agent >/dev/null 2>&1; then
+    if ! go build -ldflags="-X github.com/RouXx67/PulseUP/internal/dockeragent.Version=${agent_version}" -o pulse-docker-agent ./cmd/pulse-docker-agent >/dev/null 2>&1; then
         print_error "Failed to build Docker agent binary"
         cd "$original_dir" >/dev/null 2>&1 || true
         rm -rf "$temp_build"

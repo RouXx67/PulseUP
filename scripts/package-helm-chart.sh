@@ -4,7 +4,7 @@
 # Usage:
 #   ./scripts/package-helm-chart.sh [version] [--push]
 # Environment:
-#   OCI_REPO (default: ghcr.io/rcourtman/pulse-chart)
+#   OCI_REPO (default: ghcr.io/RouXx67/PulseUP-chart)
 #   HELM_BIN (default: helm)
 
 set -euo pipefail
@@ -18,7 +18,7 @@ else
   DIST_DIR="$REPO_ROOT/dist"
 fi
 HELM_BIN="${HELM_BIN:-helm}"
-OCI_REPO="${OCI_REPO:-ghcr.io/rcourtman/pulse-chart}"
+OCI_REPO="${OCI_REPO:-ghcr.io/RouXx67/PulseUP-chart}"
 
 if ! command -v "$HELM_BIN" >/dev/null 2>&1; then
   echo "Error: Helm not found (expected at \$HELM_BIN=$HELM_BIN). Install Helm 3.9+ first." >&2
