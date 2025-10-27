@@ -230,5 +230,5 @@ If you're migrating from a standalone SelfUp installation:
 For SelfUp integration support:
 - Check the [main Pulse documentation](../README.md)
 - Review [troubleshooting guide](TROUBLESHOOTING.md)
-- Submit issues on the [Pulse GitHub repository](https://github.com/rcourtman/Pulse/issues)
+- Submit issues on the [Pulse GitHub repository](https://github.com/RouXx67/PulseUP/issues)
 - Join the community discussions for tips and best practices

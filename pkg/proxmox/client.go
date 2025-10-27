@@ -14,7 +14,7 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/rcourtman/pulse-go-rewrite/pkg/tlsutil"
+	"github.com/RouXx67/PulseUP/pkg/tlsutil"
 	"github.com/rs/zerolog/log"
 )
 

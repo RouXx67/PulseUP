@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/models"
-	"github.com/rcourtman/pulse-go-rewrite/internal/utils"
-	"github.com/rcourtman/pulse-go-rewrite/pkg/proxmox"
+	"github.com/RouXx67/PulseUP/internal/models"
+	"github.com/RouXx67/PulseUP/internal/utils"
+	"github.com/RouXx67/PulseUP/pkg/proxmox"
 	"github.com/rs/zerolog/log"
 )
 

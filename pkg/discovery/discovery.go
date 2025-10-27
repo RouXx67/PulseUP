@@ -17,7 +17,7 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	"github.com/rcourtman/pulse-go-rewrite/pkg/discovery/envdetect"
+	"github.com/RouXx67/PulseUP/pkg/discovery/envdetect"
 )
 
 // DiscoveredServer represents a discovered Proxmox/PBS/PMG server

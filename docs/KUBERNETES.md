@@ -28,7 +28,7 @@ Deploy Pulse to Kubernetes with the bundled Helm chart under `deploy/helm/pulse`
      --create-namespace
    ```
 
-   The chart version tracks the Pulse release version. Check [GitHub Releases](https://github.com/rcourtman/Pulse/releases) or run `gh release list --limit 1` to find the newest tag if you prefer to specify it manually.
+   The chart version tracks the Pulse release version. Check [GitHub Releases](https://github.com/RouXx67/PulseUP/releases) or run `gh release list --limit 1` to find the newest tag if you prefer to specify it manually.
 
 3. Port-forward the service to finish the first-time security setup:
 
@@ -47,7 +47,7 @@ Need to test local modifications or work offline? Install directly from the chec
 1. Clone the repository and switch into it.
 
    ```bash
-   git clone https://github.com/rcourtman/Pulse.git
+   git clone https://github.com/RouXx67/PulseUP.git
    cd Pulse
    ```
 

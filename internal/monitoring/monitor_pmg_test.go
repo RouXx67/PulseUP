@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/config"
-	"github.com/rcourtman/pulse-go-rewrite/pkg/pmg"
+	"github.com/RouXx67/PulseUP/internal/config"
+	"github.com/RouXx67/PulseUP/pkg/pmg"
 )
 
 func TestPollPMGInstancePopulatesState(t *testing.T) {

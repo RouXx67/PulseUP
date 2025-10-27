@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/config"
-	"github.com/rcourtman/pulse-go-rewrite/internal/websocket"
+	"github.com/RouXx67/PulseUP/internal/config"
+	"github.com/RouXx67/PulseUP/internal/websocket"
 	"github.com/rs/zerolog/log"
 )
 

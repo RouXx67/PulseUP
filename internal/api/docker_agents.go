@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/monitoring"
-	"github.com/rcourtman/pulse-go-rewrite/internal/utils"
-	"github.com/rcourtman/pulse-go-rewrite/internal/websocket"
-	agentsdocker "github.com/rcourtman/pulse-go-rewrite/pkg/agents/docker"
+	"github.com/RouXx67/PulseUP/internal/monitoring"
+	"github.com/RouXx67/PulseUP/internal/utils"
+	"github.com/RouXx67/PulseUP/internal/websocket"
+	agentsdocker "github.com/RouXx67/PulseUP/pkg/agents/docker"
 	"github.com/rs/zerolog/log"
 )
 

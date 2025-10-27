@@ -14,10 +14,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/config"
-	"github.com/rcourtman/pulse-go-rewrite/internal/discovery"
-	"github.com/rcourtman/pulse-go-rewrite/internal/utils"
-	"github.com/rcourtman/pulse-go-rewrite/internal/websocket"
+	"github.com/RouXx67/PulseUP/internal/config"
+	"github.com/RouXx67/PulseUP/internal/discovery"
+	"github.com/RouXx67/PulseUP/internal/utils"
+	"github.com/RouXx67/PulseUP/internal/websocket"
 	"github.com/rs/zerolog/log"
 )
 

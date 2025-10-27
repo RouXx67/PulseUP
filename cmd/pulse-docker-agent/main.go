@@ -10,7 +10,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/dockeragent"
+	"github.com/RouXx67/PulseUP/internal/dockeragent"
 	"github.com/rs/zerolog"
 )
 

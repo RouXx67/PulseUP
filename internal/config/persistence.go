@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/alerts"
-	"github.com/rcourtman/pulse-go-rewrite/internal/crypto"
-	"github.com/rcourtman/pulse-go-rewrite/internal/mock"
-	"github.com/rcourtman/pulse-go-rewrite/internal/notifications"
+	"github.com/RouXx67/PulseUP/internal/alerts"
+	"github.com/RouXx67/PulseUP/internal/crypto"
+	"github.com/RouXx67/PulseUP/internal/mock"
+	"github.com/RouXx67/PulseUP/internal/notifications"
 	"github.com/rs/zerolog/log"
 )
 

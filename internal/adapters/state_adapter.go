@@ -3,10 +3,10 @@ package adapters
 import (
 	"time"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/interfaces"
-	"github.com/rcourtman/pulse-go-rewrite/internal/models"
-	"github.com/rcourtman/pulse-go-rewrite/internal/monitoring"
-	"github.com/rcourtman/pulse-go-rewrite/internal/types"
+	"github.com/RouXx67/PulseUP/internal/interfaces"
+	"github.com/RouXx67/PulseUP/internal/models"
+	"github.com/RouXx67/PulseUP/internal/monitoring"
+	"github.com/RouXx67/PulseUP/internal/types"
 )
 
 // StateAdapter adapts the concrete State to the StateStore interface

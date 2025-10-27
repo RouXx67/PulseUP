@@ -370,7 +370,7 @@ check_docker_environment() {
        [[ "${container:-}" == "docker" ]]; then
         print_error "Docker environment detected"
         echo "Please use the Docker image directly: docker run -d -p 7655:7655 rcourtman/pulse:latest"
-        echo "See: https://github.com/rcourtman/Pulse/blob/main/docs/DOCKER.md"
+        echo "See: https://github.com/RouXx67/PulseUP/blob/main/docs/DOCKER.md"
         exit 1
     fi
 }
@@ -2279,7 +2279,7 @@ setup_auto_updates() {
     cat > /etc/systemd/system/pulse-update.service << 'EOF'
 [Unit]
 Description=Automatic Pulse update check and install
-Documentation=https://github.com/rcourtman/Pulse
+Documentation=https://github.com/RouXx67/PulseUP
 After=network-online.target
 Wants=network-online.target
 
@@ -2307,7 +2307,7 @@ EOF
     cat > /etc/systemd/system/pulse-update.timer << 'EOF'
 [Unit]
 Description=Daily check for Pulse updates
-Documentation=https://github.com/rcourtman/Pulse
+Documentation=https://github.com/RouXx67/PulseUP
 After=network-online.target
 Wants=network-online.target
 

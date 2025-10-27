@@ -1,6 +1,6 @@
 [Unit]
 Description=Automatic Pulse update check and install
-Documentation=https://github.com/rcourtman/Pulse
+Documentation=https://github.com/RouXx67/PulseUP
 After=network-online.target
 Wants=network-online.target
 # Don't run if pulse service is not running

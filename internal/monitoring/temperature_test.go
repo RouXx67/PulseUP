@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/tempproxy"
+	"github.com/RouXx67/PulseUP/internal/tempproxy"
 )
 
 type stubProxyResponse struct {

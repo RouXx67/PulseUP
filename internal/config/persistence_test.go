@@ -15,9 +15,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/alerts"
-	"github.com/rcourtman/pulse-go-rewrite/internal/config"
-	"github.com/rcourtman/pulse-go-rewrite/internal/notifications"
+	"github.com/RouXx67/PulseUP/internal/alerts"
+	"github.com/RouXx67/PulseUP/internal/config"
+	"github.com/RouXx67/PulseUP/internal/notifications"
 	"golang.org/x/crypto/pbkdf2"
 )
 

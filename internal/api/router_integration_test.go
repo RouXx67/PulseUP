@@ -15,14 +15,14 @@ import (
 	"time"
 
 	gorillaws "github.com/gorilla/websocket"
-	"github.com/rcourtman/pulse-go-rewrite/internal/api"
-	internalauth "github.com/rcourtman/pulse-go-rewrite/internal/auth"
-	"github.com/rcourtman/pulse-go-rewrite/internal/config"
-	"github.com/rcourtman/pulse-go-rewrite/internal/mock"
-	"github.com/rcourtman/pulse-go-rewrite/internal/models"
-	"github.com/rcourtman/pulse-go-rewrite/internal/monitoring"
-	"github.com/rcourtman/pulse-go-rewrite/internal/updates"
-	internalws "github.com/rcourtman/pulse-go-rewrite/internal/websocket"
+	"github.com/RouXx67/PulseUP/internal/api"
+	internalauth "github.com/RouXx67/PulseUP/internal/auth"
+	"github.com/RouXx67/PulseUP/internal/config"
+	"github.com/RouXx67/PulseUP/internal/mock"
+	"github.com/RouXx67/PulseUP/internal/models"
+	"github.com/RouXx67/PulseUP/internal/monitoring"
+	"github.com/RouXx67/PulseUP/internal/updates"
+	internalws "github.com/RouXx67/PulseUP/internal/websocket"
 )
 
 type integrationServer struct {

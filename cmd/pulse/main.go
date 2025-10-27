@@ -12,12 +12,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/api"
-	"github.com/rcourtman/pulse-go-rewrite/internal/config"
-	"github.com/rcourtman/pulse-go-rewrite/internal/logging"
-	_ "github.com/rcourtman/pulse-go-rewrite/internal/mock" // Import for init() to run
-	"github.com/rcourtman/pulse-go-rewrite/internal/monitoring"
-	"github.com/rcourtman/pulse-go-rewrite/internal/websocket"
+	"github.com/RouXx67/PulseUP/internal/api"
+	"github.com/RouXx67/PulseUP/internal/config"
+	"github.com/RouXx67/PulseUP/internal/logging"
+	_ "github.com/RouXx67/PulseUP/internal/mock" // Import for init() to run
+	"github.com/RouXx67/PulseUP/internal/monitoring"
+	"github.com/RouXx67/PulseUP/internal/websocket"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/cobra"
 )

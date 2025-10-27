@@ -1,6 +1,6 @@
 # Docker Deployment Guide
 
-> **Proxmox VE Users:** Consider using the [official installer](https://github.com/rcourtman/Pulse#install) instead, which automatically creates an optimized LXC container.
+> **Proxmox VE Users:** Consider using the [official installer](https://github.com/RouXx67/PulseUP#install) instead, which automatically creates an optimized LXC container.
 
 ## Quick Start
 
@@ -291,7 +291,7 @@ docker run -d --name pulse \
   ```
 
 ### Roll back to a prior release
-- Choose a previous tag (for example `v4.23.2`) from [GitHub Releases](https://github.com/rcourtman/Pulse/releases) or Docker Hub.
+- Choose a previous tag (for example `v4.23.2`) from [GitHub Releases](https://github.com/RouXx67/PulseUP/releases) or Docker Hub.
 - Redeploy the container with that tag:
   ```bash
   docker pull rcourtman/pulse:v4.23.2

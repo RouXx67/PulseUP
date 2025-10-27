@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/types"
+	"github.com/RouXx67/PulseUP/internal/types"
 )
 
 // Use MetricPoint from types package

@@ -210,7 +210,7 @@ export const SecurityWarning: Component = () => {
                     Enable Security →
                   </a>
                   <a
-                    href="https://github.com/rcourtman/Pulse/blob/main/docs/SECURITY.md"
+                    href="https://github.com/RouXx67/PulseUP/blob/main/docs/SECURITY.md"
                     target="_blank"
                     class="text-sm text-gray-600 dark:text-gray-400 hover:underline"
                   >

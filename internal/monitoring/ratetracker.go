@@ -3,7 +3,7 @@ package monitoring
 import (
 	"sync"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/types"
+	"github.com/RouXx67/PulseUP/internal/types"
 )
 
 // Use IOMetrics from types package

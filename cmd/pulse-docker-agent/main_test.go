@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/dockeragent"
+	"github.com/RouXx67/PulseUP/internal/dockeragent"
 )
 
 func TestParseTargetSpec(t *testing.T) {

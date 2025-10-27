@@ -14,7 +14,8 @@ if [[ ! -f "$VERSION_FILE" ]]; then
   echo "$DEFAULT_VERSION" | sudo tee "$VERSION_FILE" >/dev/null
 fi
 VERSION="$(tr -d '
-' < "$VERSION_FILE")"
+
+' < "$VERSION_FILE")"
 ARCHIVE="${VERSION}.linux-amd64.tar.gz"
 DOWNLOAD_DIR="${TMPDIR:-/tmp}/go-install"
 ARCHIVE_PATH="$DOWNLOAD_DIR/$ARCHIVE"
@@ -28,7 +29,8 @@ fi
 curl -fsSL "$DOWNLOAD_ROOT/$ARCHIVE.sha256" -o "$SHA_PATH"
 
 CHECKSUM="$(tr -d '
-' < "$SHA_PATH")"
+
+' < "$SHA_PATH")"
 printf '%s  %s
 ' "$CHECKSUM" "$ARCHIVE_PATH" | sha256sum -c -
 

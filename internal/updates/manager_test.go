@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/config"
+	"github.com/RouXx67/PulseUP/internal/config"
 )
 
 // mockGitHubReleases creates a test HTTP server that returns mock release data

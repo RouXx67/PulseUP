@@ -12,8 +12,8 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/rcourtman/pulse-go-rewrite/internal/alerts"
-	"github.com/rcourtman/pulse-go-rewrite/internal/utils"
+	"github.com/RouXx67/PulseUP/internal/alerts"
+	"github.com/RouXx67/PulseUP/internal/utils"
 	"github.com/rs/zerolog/log"
 )
 

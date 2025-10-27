@@ -20,7 +20,7 @@ import (
 	"github.com/docker/docker/api/types"
 	containertypes "github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/client"
-	agentsdocker "github.com/rcourtman/pulse-go-rewrite/pkg/agents/docker"
+	agentsdocker "github.com/RouXx67/PulseUP/pkg/agents/docker"
 	"github.com/rs/zerolog"
 )
 

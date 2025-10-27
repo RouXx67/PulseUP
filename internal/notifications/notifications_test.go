@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/alerts"
+	"github.com/RouXx67/PulseUP/internal/alerts"
 )
 
 func flushPending(n *NotificationManager) {

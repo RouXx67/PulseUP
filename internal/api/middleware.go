@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/logging"
+	"github.com/RouXx67/PulseUP/internal/logging"
 	"github.com/rs/zerolog/log"
 )
 

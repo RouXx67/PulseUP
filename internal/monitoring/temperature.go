@@ -15,9 +15,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/models"
-	"github.com/rcourtman/pulse-go-rewrite/internal/ssh/knownhosts"
-	"github.com/rcourtman/pulse-go-rewrite/internal/tempproxy"
+	"github.com/RouXx67/PulseUP/internal/models"
+	"github.com/RouXx67/PulseUP/internal/ssh/knownhosts"
+	"github.com/RouXx67/PulseUP/internal/tempproxy"
 	"github.com/rs/zerolog/log"
 )
 

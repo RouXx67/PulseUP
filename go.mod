@@ -1,4 +1,4 @@
-module github.com/rcourtman/pulse-go-rewrite
+module github.com/RouXx67/PulseUP
 
 go 1.24.0
 

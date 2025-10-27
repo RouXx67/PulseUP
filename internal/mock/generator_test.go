@@ -3,7 +3,7 @@ package mock
 import (
 	"testing"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/models"
+	"github.com/RouXx67/PulseUP/internal/models"
 )
 
 func TestGenerateMockDataIncludesDockerHosts(t *testing.T) {

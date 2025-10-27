@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/alerts"
-	"github.com/rcourtman/pulse-go-rewrite/internal/config"
-	"github.com/rcourtman/pulse-go-rewrite/internal/models"
-	"github.com/rcourtman/pulse-go-rewrite/internal/notifications"
-	"github.com/rcourtman/pulse-go-rewrite/pkg/proxmox"
+	"github.com/RouXx67/PulseUP/internal/alerts"
+	"github.com/RouXx67/PulseUP/internal/config"
+	"github.com/RouXx67/PulseUP/internal/models"
+	"github.com/RouXx67/PulseUP/internal/notifications"
+	"github.com/RouXx67/PulseUP/pkg/proxmox"
 )
 
 type stubPVEClient struct {

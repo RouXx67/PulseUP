@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	internalerrors "github.com/rcourtman/pulse-go-rewrite/internal/errors"
+	internalerrors "github.com/RouXx67/PulseUP/internal/errors"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

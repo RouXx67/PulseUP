@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/config"
+	"github.com/RouXx67/PulseUP/internal/config"
 )
 
 func TestSchedulerHealth_EnhancedResponse(t *testing.T) {

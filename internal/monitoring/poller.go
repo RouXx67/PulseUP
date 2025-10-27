@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/errors"
-	"github.com/rcourtman/pulse-go-rewrite/internal/logging"
-	"github.com/rcourtman/pulse-go-rewrite/pkg/pbs"
-	"github.com/rcourtman/pulse-go-rewrite/pkg/pmg"
+	"github.com/RouXx67/PulseUP/internal/errors"
+	"github.com/RouXx67/PulseUP/internal/logging"
+	"github.com/RouXx67/PulseUP/pkg/pbs"
+	"github.com/RouXx67/PulseUP/pkg/pmg"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 )

@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/alerts"
+	"github.com/RouXx67/PulseUP/internal/alerts"
 )
 
 // EmailTemplate generates a professional HTML email template for alerts

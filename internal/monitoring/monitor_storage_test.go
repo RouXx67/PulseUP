@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/alerts"
-	"github.com/rcourtman/pulse-go-rewrite/internal/models"
-	"github.com/rcourtman/pulse-go-rewrite/pkg/proxmox"
+	"github.com/RouXx67/PulseUP/internal/alerts"
+	"github.com/RouXx67/PulseUP/internal/models"
+	"github.com/RouXx67/PulseUP/pkg/proxmox"
 )
 
 // fakeStorageClient provides minimal PVE responses needed by the optimized storage poller.

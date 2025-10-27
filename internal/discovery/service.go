@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/config"
-	"github.com/rcourtman/pulse-go-rewrite/internal/websocket"
-	pkgdiscovery "github.com/rcourtman/pulse-go-rewrite/pkg/discovery"
+	"github.com/RouXx67/PulseUP/internal/config"
+	"github.com/RouXx67/PulseUP/internal/websocket"
+	pkgdiscovery "github.com/RouXx67/PulseUP/pkg/discovery"
 	"github.com/rs/zerolog/log"
 )
 

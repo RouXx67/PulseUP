@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/models"
-	"github.com/rcourtman/pulse-go-rewrite/internal/types"
+	"github.com/RouXx67/PulseUP/internal/models"
+	"github.com/RouXx67/PulseUP/internal/types"
 )
 
 // StateStore defines the interface for state management

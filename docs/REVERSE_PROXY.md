@@ -364,4 +364,4 @@ If WebSockets still don't work after following this guide:
 1. Check browser console for errors (F12)
 2. Verify Pulse logs: `journalctl -u pulse -f`
 3. Test without proxy first: `http://your-server:7655`
-4. Report issues: https://github.com/rcourtman/Pulse/issues
+4. Report issues: https://github.com/RouXx67/PulseUP/issues

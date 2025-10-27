@@ -1,6 +1,6 @@
 [Unit]
 Description=Pulse Sensor Cleanup Service
-Documentation=https://github.com/rcourtman/Pulse
+Documentation=https://github.com/RouXx67/PulseUP
 After=network.target
 
 [Service]

@@ -12,7 +12,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/config"
+	"github.com/RouXx67/PulseUP/internal/config"
 	"github.com/spf13/cobra"
 	"golang.org/x/term"
 )

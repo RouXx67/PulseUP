@@ -490,4 +490,4 @@ curl -s http://localhost:7655/api/monitoring/scheduler/health \
 ---
 
 **Last Updated**: 2025-10-19
-**Security Contact**: File issues at https://github.com/rcourtman/Pulse/issues
+**Security Contact**: File issues at https://github.com/RouXx67/PulseUP/issues

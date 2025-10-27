@@ -523,4 +523,4 @@ When reporting issues, include:
 4. Steps to reproduce
 5. Expected vs actual behavior
 
-Report at: https://github.com/rcourtman/Pulse/issues
+Report at: https://github.com/RouXx67/PulseUP/issues

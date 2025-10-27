@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/types"
+	"github.com/RouXx67/PulseUP/internal/types"
 )
 
 func TestRateTrackerConcurrentAccess(t *testing.T) {

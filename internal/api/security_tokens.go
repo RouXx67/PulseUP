@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	internalauth "github.com/rcourtman/pulse-go-rewrite/internal/auth"
-	"github.com/rcourtman/pulse-go-rewrite/internal/config"
+	internalauth "github.com/RouXx67/PulseUP/internal/auth"
+	"github.com/RouXx67/PulseUP/internal/config"
 	"github.com/rs/zerolog/log"
 )
 

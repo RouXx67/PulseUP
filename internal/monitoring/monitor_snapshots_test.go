@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/models"
-	"github.com/rcourtman/pulse-go-rewrite/pkg/proxmox"
+	"github.com/RouXx67/PulseUP/internal/models"
+	"github.com/RouXx67/PulseUP/pkg/proxmox"
 )
 
 type fakeSnapshotClient struct {

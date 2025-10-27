@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rcourtman/pulse-go-rewrite/internal/utils"
+	"github.com/RouXx67/PulseUP/internal/utils"
 	"github.com/rs/zerolog/log"
 )
 

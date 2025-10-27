@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/rcourtman/pulse-go-rewrite/internal/auth"
+	"github.com/RouXx67/PulseUP/internal/auth"
 )
 
 // ErrInvalidToken is returned when a token value is empty or malformed.
